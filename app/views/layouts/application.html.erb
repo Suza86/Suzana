@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Suzana</title>
+    <%= csrf_meta_tags %>
+
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' %>
+    <%= stylesheet_link_tag    'https://cdn.datatables.net/s/dt/dt-1.10.10,r-2.0.0/datatables.min.css' %>
+
+  </head>
+
+  <body>
+ 
+<%= javascript_pack_tag 'movies' %>
+<%= javascript_pack_tag 'hello_react' %> 
+
+<%= @movies.to_json %>
+
+
+  </body>
+
+</html>
+
+
