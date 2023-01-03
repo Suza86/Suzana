@@ -52,7 +52,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem 'httparty', '~> 0.13.7'
+gem 'httparty', '~> 0.21.0'
 gem 'themoviedb-api', '~> 1.3'
 gem 'yarn', '~> 0.1.1'
 gem 'webpacker', '~> 3.5'
